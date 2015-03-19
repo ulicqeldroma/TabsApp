@@ -65,7 +65,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     }
 
     public void btnActFourClick(View view){
-        Toast.makeText(this, "Hola desde la actividad 4", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Hola desde la Actividad 4", Toast.LENGTH_LONG).show();
     }
 
 
