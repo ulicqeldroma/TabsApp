@@ -1,5 +1,6 @@
 package com.example.israel.tabsapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -65,7 +66,13 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     }
 
     public void btnActFourClick(View view){
-        Toast.makeText(this, "Hola desde la Actividad 4", Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "Hola desde la Actividad 4", Toast.LENGTH_LONG).show();
+        /**
+         * Start activity for testing ActionBar
+         */
+        Intent myIntent = new Intent(this, Test.class);
+        startActivity(myIntent);
+
     }
 
 
